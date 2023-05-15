@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: 'nunito', inter;
+
+}
+
+img{
+    max-width: 100%;
+    margin:auto;
+
+}
+
+header, main,footer{
+    max-width: 1200px;
+    margin:auto;
+
+}
+
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-family: nunito;
+    align-items: center;
+    }
+    
+    header p {
+        font-size: 80px;
+        margin: 0;
+        font-weight:bold;
+        font-family: nunito;
+    }
+    
+    header nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 36px;
+        margin: 0;
+        font-weight:normal;
+        font-family: nunito;
+    }
+
+    header nav a:hover {
+        text-decoration: underline;
+        text-decoration: underline #6078DD;
+    
+    }
+    
+    header nav ul{
+        display: flex;
+        padding: 20px;
+        margin:0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        gap: 20px;  
+    }
+    
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    }
+
+    header {
+        height: 20px;
+        background-color: #71F8E9;
+    }
+    main  {
+       margin-top: 100px;
+    }
+
+    div.card img {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+
+    div.card {
+        display: grid;
+        columns: 2;
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+        
+    }
+
+    img:hover {
+        filter: grayscale(100%);   
+    }
+
+    footer h1 {
+        font-family: nunito;
+        font-weight: normal;
+        font-size: 32px;
+        color: white;
+        text-align: center;
+    }
+
+    footer {
+        background-color: #6078DD;
+        height: auto;
+       
+
+    }

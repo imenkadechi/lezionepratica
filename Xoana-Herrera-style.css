@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: 'nunito', inter;
+
+}
+
+img{
+    max-width: 100%;
+    margin:auto;
+
+}
+
+header, main,footer{
+    max-width: 1200px;
+    margin:auto;
+
+}
+
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-family: nunito;
+    align-items: center;
+    }
+    
+    header p {
+        font-size: 80px;
+        margin: 0;
+        font-weight:bold;
+        font-family: nunito;
+    }
+    
+    header nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 36px;
+        margin: 0;
+        font-weight:normal;
+        font-family: nunito;
+    }
+
+    header nav a:hover {
+        text-decoration: underline;
+        text-decoration: underline #6078DD;
+    
+    }
+    
+    header nav ul{
+        display: flex;
+        padding: 20px;
+        margin:0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        gap: 20px;  
+    }
+    
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    }
+
+    header {
+        height: 20px;
+        background-color: #71F8E9;
+    }
+
+    main img {
+        object-fit: cover;
+        height: auto;
+    
+    }
+
+div.card1 {
+    display: grid;
+        columns: 3;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 50px;
+        align-items: center;
+        margin-top: 100px;
+}
+
+div.card1 p {
+    grid-column: 2 / span 2 ;
+}
+
+div p {
+    font-size: 28px;
+    font-family: 'inter';
+    font-weight: normal;
+}
+
+div.card2 {
+    display: grid;
+    columns: 3;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+    footer p {
+        font-family: nunito;
+        font-weight: normal;
+        font-size: 32px;
+        color: white;
+        text-align: center;
+    }
+
+    footer {
+        background-color: #6078DD;
+        height: auto;
+       
+
+    }
